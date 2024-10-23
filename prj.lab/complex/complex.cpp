@@ -1,9 +1,5 @@
 // 2022 by Polevoi Dmitry under Unlicense
-#include "complex.hpp"
-
-int main() {
-  Complex c;
-}
+#include <complex/complex.hpp>
 
 Complex Complex::operator-() const noexcept { return Complex(-re, -im); }
 
