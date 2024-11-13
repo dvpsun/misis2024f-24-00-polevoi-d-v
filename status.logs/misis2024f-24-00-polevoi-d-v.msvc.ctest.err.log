@@ -1,20 +1,5 @@
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_bitset.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_bitset_m.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_m.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_dynarr.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_dynarr_m.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_queuearr.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_queuearr_m.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_queuelst.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_queuelst_m.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_queuelstpr.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_queuelstpr_m.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_stackarr.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_stackarr_m.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_stacklst.exe
-Unable to find executable: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_stacklst_m.exe
+Unable to find executable: D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
+Unable to find executable: D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
 Errors while running CTest
-Output from these tests are in: D:/.dima/misis2024f-24-check/misis2024f-24-00-polevoi-d-v/build.check/Testing/Temporary/LastTest.log
+Output from these tests are in: D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/build.check/Testing/Temporary/LastTest.log
 Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
