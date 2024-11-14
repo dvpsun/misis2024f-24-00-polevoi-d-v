@@ -27,7 +27,7 @@ Release/D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doct
 
 0% tests passed, 4 tests failed out of 4
 
-Total Test time (real) =   0.01 sec
+Total Test time (real) =   0.02 sec
 
 The following tests FAILED:
 	  1 - doctest_complex (Failed)
