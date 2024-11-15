@@ -1,33 +1,33 @@
-Internal ctest changing into directory: D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/build.check
-Test project D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/build.check
+Internal ctest changing into directory: D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/build.check
+Test project D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/build.check
     Start 1: doctest_complex
     Start 2: doctest_complex_io
     Start 3: doctest_rational
-Could not find executable D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
+Could not find executable D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
 Looked in the following places:
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational.exe
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational.exe.exe
-Release/D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
-Release/D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational.exe.exe
+Release/D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe
+Release/D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational.exe.exe
 1/4 Test #3: doctest_rational .................***Not Run   0.00 sec
     Start 4: doctest_rational_io
-Could not find executable D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
+Could not find executable D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
 Looked in the following places:
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe
-D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe.exe
-Release/D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
-Release/D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe
+D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/Release/doctest_rational_io.exe.exe
+Release/D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe
+Release/D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/bin.check/doctest_rational_io.exe.exe
 2/4 Test #4: doctest_rational_io ..............***Not Run   0.00 sec
-3/4 Test #1: doctest_complex ..................***Failed    0.01 sec
-4/4 Test #2: doctest_complex_io ...............***Failed    0.01 sec
+3/4 Test #1: doctest_complex ..................***Failed    0.02 sec
+4/4 Test #2: doctest_complex_io ...............***Failed    0.02 sec
 
 0% tests passed, 4 tests failed out of 4
 
-Total Test time (real) =   0.02 sec
+Total Test time (real) =   0.03 sec
 
 The following tests FAILED:
 	  1 - doctest_complex (Failed)
