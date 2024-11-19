@@ -4,8 +4,8 @@ Test project D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/build.che
     Start 2: doctest_complex_io
     Start 3: doctest_rational
     Start 4: doctest_rational_io
-1/4 Test #2: doctest_complex_io ...............***Failed    0.01 sec
-2/4 Test #1: doctest_complex ..................***Failed    0.01 sec
+1/4 Test #1: doctest_complex ..................***Failed    0.01 sec
+2/4 Test #2: doctest_complex_io ...............***Failed    0.01 sec
 3/4 Test #3: doctest_rational .................***Failed    0.01 sec
 4/4 Test #4: doctest_rational_io ..............***Failed    0.01 sec
 
