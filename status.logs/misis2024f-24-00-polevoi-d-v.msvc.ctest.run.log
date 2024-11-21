@@ -1,20 +1,23 @@
-Internal ctest changing into directory: D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/build.check
-Test project D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/build.check
-    Start 1: doctest_complex
-    Start 2: doctest_complex_io
-    Start 3: doctest_rational
-    Start 4: doctest_rational_io
-1/4 Test #1: doctest_complex ..................***Failed    0.01 sec
-2/4 Test #2: doctest_complex_io ...............***Failed    0.01 sec
-3/4 Test #3: doctest_rational .................***Failed    0.01 sec
-4/4 Test #4: doctest_rational_io ..............***Failed    0.01 sec
+Internal ctest changing into directory: D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/build.check
+Test project D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/build.check
+    Start 1: doctest_arrayd
+    Start 2: doctest_complex
+    Start 3: doctest_complex_io
+    Start 4: doctest_rational
+    Start 5: doctest_rational_io
+1/5 Test #1: doctest_arrayd ...................***Failed    0.02 sec
+2/5 Test #2: doctest_complex ..................***Failed    0.01 sec
+3/5 Test #3: doctest_complex_io ...............***Failed    0.01 sec
+4/5 Test #4: doctest_rational .................***Failed    0.01 sec
+5/5 Test #5: doctest_rational_io ..............***Failed    0.01 sec
 
-0% tests passed, 4 tests failed out of 4
+0% tests passed, 5 tests failed out of 5
 
-Total Test time (real) =   0.02 sec
+Total Test time (real) =   0.03 sec
 
 The following tests FAILED:
-	  1 - doctest_complex (Failed)
-	  2 - doctest_complex_io (Failed)
-	  3 - doctest_rational (Failed)
-	  4 - doctest_rational_io (Failed)
+	  1 - doctest_arrayd (Failed)
+	  2 - doctest_complex (Failed)
+	  3 - doctest_complex_io (Failed)
+	  4 - doctest_rational (Failed)
+	  5 - doctest_rational_io (Failed)
