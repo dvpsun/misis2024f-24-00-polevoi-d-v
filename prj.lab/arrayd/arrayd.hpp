@@ -25,14 +25,14 @@ public:
   void Resize(const std::ptrdiff_t size) { size_ = size; }
   
   //! \param idx - индекс  элемента, 0 <= idx < Size()
-  [[nodiscard]] double& operator[](const std::ptrdiff_t idx) { return *data_; }
-  [[nodiscard]] double operator[](const std::ptrdiff_t idx) const { return *data_; }
+  [[nodiscard]] double& operator[](const std::ptrdiff_t idx) { (idx);  return *data_; }
+  [[nodiscard]] double operator[](const std::ptrdiff_t idx) const { (idx);  return *data_; }
 
   //! \param idx - индекс вставляемого элемента, 0 <= idx <= size 
-  void Insert(const std::ptrdiff_t idx, const double val) { }
+  void Insert(const std::ptrdiff_t idx, const double val) { (idx); (val); }
 
   //! \param idx - индекс удаляемого элемента, 0 <= idx < size 
-  void Remove(const std::ptrdiff_t idx) { }
+  void Remove(const std::ptrdiff_t idx) { (idx); }
 
 private:
   std::ptrdiff_t capacity_ = 0;  //!< размер буффера
