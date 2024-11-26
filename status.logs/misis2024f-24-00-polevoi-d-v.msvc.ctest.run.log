@@ -5,15 +5,15 @@ Test project D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/build.chec
     Start 3: doctest_complex_io
     Start 4: doctest_rational
     Start 5: doctest_rational_io
-1/5 Test #1: doctest_arrayd ...................***Failed    0.06 sec
-2/5 Test #2: doctest_complex ..................***Failed    0.05 sec
-3/5 Test #3: doctest_complex_io ...............***Failed    0.05 sec
+1/5 Test #1: doctest_arrayd ...................***Failed    0.02 sec
+2/5 Test #2: doctest_complex ..................***Failed    0.01 sec
+3/5 Test #3: doctest_complex_io ...............***Failed    0.01 sec
 4/5 Test #4: doctest_rational .................***Failed    0.01 sec
-5/5 Test #5: doctest_rational_io ..............***Failed    0.00 sec
+5/5 Test #5: doctest_rational_io ..............***Failed    0.01 sec
 
 0% tests passed, 5 tests failed out of 5
 
-Total Test time (real) =   0.06 sec
+Total Test time (real) =   0.03 sec
 
 The following tests FAILED:
 	  1 - doctest_arrayd (Failed)
