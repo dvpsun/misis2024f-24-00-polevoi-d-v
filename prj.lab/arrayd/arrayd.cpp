@@ -29,20 +29,29 @@ ArrayD::~ArrayD() {
 ArrayD& ArrayD::operator=(const ArrayD& rhs) {
   if (this != & rhs) {
     Resize(rhs.size_);
-    size_ = rhs.size_;
-    std::memcmp(data_, rhs.data_, size_ * sizeof(*data_));
+    std::memcpy(data_, rhs.data_, size_ * sizeof(*data_));
   }
   return *this;
 }
 
 void ArrayD::Resize(const std::ptrdiff_t size) { 
-  if (size_ < 0) {
+  if (size < 0) {
     throw std::invalid_argument("ArrayD::Resize - non positive size");
   }
-  if (capacity_ <= size) {
+  if (capacity_ < size) {
+    auto data = new double[size]{0.0};
+    if (0 < size_) {
+      std::memcpy(data, data_, size_ * sizeof(*data_));
+    }
+    std::swap(data_, data);
+    delete[] data;
+    capacity_ = size;
   } else {
-
+    if (size_ < size) {
+      std::memset(data_ + size, 0, (size - size_) * sizeof(*data_));
+    }
   }
+  size_ = size;
 }
   
 
@@ -66,7 +75,7 @@ void ArrayD::Insert(const std::ptrdiff_t idx, const double val) {
   }
   Resize(size_ + 1);
   if (idx != Size() - 1) {
-    std::memmove(data_ + idx + 1, data_ + idx, (size_ - idx) * sizeof(double));
+    std::memmove(data_ + idx + 1, data_ + idx, (size_ - idx - 1) * sizeof(double));
   }
   data_[idx] = val;
 }
