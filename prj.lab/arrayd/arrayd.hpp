@@ -17,7 +17,7 @@ public:
   
   ~ArrayD();
   
-  [[nodiscard]] ArrayD& operator=(const ArrayD&);
+  ArrayD& operator=(const ArrayD&);
 
   [[nodiscard]] std::ptrdiff_t Size() const noexcept { return size_; }
   

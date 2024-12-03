@@ -1,1 +1,1 @@
-add_library(arrayt INTERFACE arrayt.hpp)
+add_library(arrayt PUBLIC INTERFACE arrayt.hpp)
