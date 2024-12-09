@@ -77,14 +77,14 @@ void StackL::Push(const T val) {
   head_ = new Node{val, head_};
 }
   
-StackL::T StackL::Top() & {
+StackL::T& StackL::Top() & {
   if (IsEmpty()) {
     throw std::logic_error("StackL - try get top form empty stack.");
   }
   return head_->val;
 }
 
-StackL::T StackL::Top() const & {
+const StackL::T& StackL::Top() const & {
   if (IsEmpty()) {
     throw std::logic_error("StackL - try get top form empty stack.");
   }

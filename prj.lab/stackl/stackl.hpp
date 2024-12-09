@@ -29,9 +29,9 @@ public:
 
   void Push(const T val);
   
-  [[nodiscard]] T Top() &;
+  [[nodiscard]] T& Top() &;
 
-  [[nodiscard]] T Top() const &;
+  [[nodiscard]] const T& Top() const &;
 
   void Clear() noexcept;
 
