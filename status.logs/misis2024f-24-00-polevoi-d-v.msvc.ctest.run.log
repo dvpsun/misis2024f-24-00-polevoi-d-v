@@ -6,14 +6,18 @@ Test project D:/projects/misis2024f-check/misis2024f-24-00-polevoi-d-v/build.che
     Start 4: doctest_complex_io
     Start 5: doctest_rational
     Start 6: doctest_rational_io
-1/6 Test #1: doctest_arrayd ...................   Passed    0.02 sec
-2/6 Test #2: doctest_arrayt ...................***Failed    0.01 sec
-3/6 Test #3: doctest_complex ..................***Failed    0.01 sec
-4/6 Test #4: doctest_complex_io ...............***Failed    0.01 sec
-5/6 Test #5: doctest_rational .................***Failed    0.01 sec
-6/6 Test #6: doctest_rational_io ..............***Failed    0.01 sec
+    Start 7: doctest_queuea
+    Start 8: doctest_stackl
+1/8 Test #1: doctest_arrayd ...................   Passed    0.02 sec
+2/8 Test #2: doctest_arrayt ...................***Failed    0.02 sec
+3/8 Test #3: doctest_complex ..................***Failed    0.02 sec
+4/8 Test #4: doctest_complex_io ...............***Failed    0.02 sec
+5/8 Test #5: doctest_rational .................***Failed    0.01 sec
+6/8 Test #7: doctest_queuea ...................   Passed    0.01 sec
+7/8 Test #6: doctest_rational_io ..............***Failed    0.01 sec
+8/8 Test #8: doctest_stackl ...................   Passed    0.01 sec
 
-17% tests passed, 5 tests failed out of 6
+38% tests passed, 5 tests failed out of 8
 
 Total Test time (real) =   0.03 sec
 
