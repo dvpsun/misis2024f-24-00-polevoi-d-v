@@ -57,21 +57,21 @@ void ArrayD::Resize(const std::ptrdiff_t size) {
 
 double& ArrayD::operator[](const std::ptrdiff_t idx) { 
   if (idx < 0 || size_ <= idx) {
-    throw std::invalid_argument("ArrayD::operator[] - invalid argument");
+    throw std::invalid_argument("ArrayD::operator[] - invalid index");
   }
   return *(data_ + idx);
 }
 
 double ArrayD::operator[](const std::ptrdiff_t idx) const { 
   if (idx < 0 || size_ <= idx) {
-    throw std::invalid_argument("ArrayD::operator[] - invalid argument");
+    throw std::invalid_argument("ArrayD::operator[] - invalid index");
   }
   return data_[idx];
 }
 
 void ArrayD::Insert(const std::ptrdiff_t idx, const double val) {
   if (idx < 0 || size_ < idx) {
-    throw std::invalid_argument("ArrayD::Insert - invalid argument");
+    throw std::invalid_argument("ArrayD::Insert - invalid index");
   }
   Resize(size_ + 1);
   if (idx != Size() - 1) {
@@ -83,7 +83,7 @@ void ArrayD::Insert(const std::ptrdiff_t idx, const double val) {
 
 void ArrayD::Remove(const std::ptrdiff_t idx) { 
   if (idx < 0 || size_ <= idx) {
-    throw std::invalid_argument("ArrayD::operator[] - invalid argument");
+    throw std::invalid_argument("ArrayD::operator[] - invalid index");
   }
   if (idx != size_ - 1) {
     // удаляем НЕ в конце
