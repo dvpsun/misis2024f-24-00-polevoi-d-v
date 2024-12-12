@@ -48,7 +48,7 @@ void ArrayD::Resize(const std::ptrdiff_t size) {
     capacity_ = size;
   } else {
     if (size_ < size) {
-      std::memset(data_ + size, 0, (size - size_) * sizeof(*data_));
+      std::memset(data_ + size_, 0, (size - size_) * sizeof(*data_));
     }
   }
   size_ = size;
