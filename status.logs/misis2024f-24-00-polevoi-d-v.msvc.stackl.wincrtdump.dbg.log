@@ -1,0 +1,147 @@
+Detected memory leaks!
+Dumping objects ->
+{672} normal block at 0x0000024BA9603BA0, 16 bytes long.
+ Data: <                > 00 CD CD CD CD CD CD CD 00 00 00 00 00 00 00 00 
+{657} normal block at 0x0000024BA96042D0, 16 bytes long.
+ Data: <( w1            > 28 B4 77 31 F6 7F 00 00 00 00 00 00 00 00 00 00 
+{453} normal block at 0x0000024BA9604500, 16 bytes long.
+ Data: <        @A` K   > 00 CD CD CD CD CD CD CD 40 41 60 A9 4B 02 00 00 
+{452} normal block at 0x0000024BA9604140, 16 bytes long.
+ Data: <                > 00 CD CD CD CD CD CD CD 00 00 00 00 00 00 00 00 
+{448} normal block at 0x0000024BA96040A0, 16 bytes long.
+ Data: <                > 01 CD CD CD CD CD CD CD 00 00 00 00 00 00 00 00 
+{239} normal block at 0x0000024BA96044B0, 16 bytes long.
+ Data: <                > 00 CD CD CD CD CD CD CD 00 00 00 00 00 00 00 00 
+{238} normal block at 0x0000024BA9604550, 16 bytes long.
+ Data: <         D` K   > 00 CD CD CD CD CD CD CD B0 44 60 A9 4B 02 00 00 
+{237} normal block at 0x0000024BA96037E0, 16 bytes long.
+ Data: <        PE` K   > 00 CD CD CD CD CD CD CD 50 45 60 A9 4B 02 00 00 
+{236} normal block at 0x0000024BA9603AB0, 16 bytes long.
+ Data: <         7` K   > 00 CD CD CD CD CD CD CD E0 37 60 A9 4B 02 00 00 
+{235} normal block at 0x0000024BA9603EC0, 16 bytes long.
+ Data: <         :` K   > 00 CD CD CD CD CD CD CD B0 3A 60 A9 4B 02 00 00 
+{234} normal block at 0x0000024BA9603E20, 16 bytes long.
+ Data: <         >` K   > 00 CD CD CD CD CD CD CD C0 3E 60 A9 4B 02 00 00 
+{233} normal block at 0x0000024BA9603A60, 16 bytes long.
+ Data: <         >` K   > 00 CD CD CD CD CD CD CD 20 3E 60 A9 4B 02 00 00 
+{232} normal block at 0x0000024BA9604230, 16 bytes long.
+ Data: <        `:` K   > 00 CD CD CD CD CD CD CD 60 3A 60 A9 4B 02 00 00 
+{231} normal block at 0x0000024BA9604000, 16 bytes long.
+ Data: <        0B` K   > 00 CD CD CD CD CD CD CD 30 42 60 A9 4B 02 00 00 
+{230} normal block at 0x0000024BA9603DD0, 16 bytes long.
+ Data: <         @` K   > 00 CD CD CD CD CD CD CD 00 40 60 A9 4B 02 00 00 
+{229} normal block at 0x0000024BA9603FB0, 16 bytes long.
+ Data: <         9` K   > 00 CD CD CD CD CD CD CD 20 39 60 A9 4B 02 00 00 
+{228} normal block at 0x0000024BA9603920, 16 bytes long.
+ Data: <        `?` K   > 00 CD CD CD CD CD CD CD 60 3F 60 A9 4B 02 00 00 
+{227} normal block at 0x0000024BA9603F60, 16 bytes long.
+ Data: <         =` K   > 00 CD CD CD CD CD CD CD 80 3D 60 A9 4B 02 00 00 
+{226} normal block at 0x0000024BA9603D80, 16 bytes long.
+ Data: <         C` K   > 00 CD CD CD CD CD CD CD 20 43 60 A9 4B 02 00 00 
+{225} normal block at 0x0000024BA9604320, 16 bytes long.
+ Data: <         B` K   > 00 CD CD CD CD CD CD CD 80 42 60 A9 4B 02 00 00 
+{224} normal block at 0x0000024BA9604280, 16 bytes long.
+ Data: <         <` K   > 00 CD CD CD CD CD CD CD E0 3C 60 A9 4B 02 00 00 
+{223} normal block at 0x0000024BA9603CE0, 16 bytes long.
+ Data: <         8` K   > 00 CD CD CD CD CD CD CD 80 38 60 A9 4B 02 00 00 
+{222} normal block at 0x0000024BA9603880, 16 bytes long.
+ Data: <         A` K   > 00 CD CD CD CD CD CD CD E0 41 60 A9 4B 02 00 00 
+{221} normal block at 0x0000024BA96041E0, 16 bytes long.
+ Data: <         <` K   > 00 CD CD CD CD CD CD CD 90 3C 60 A9 4B 02 00 00 
+{220} normal block at 0x0000024BA9603C90, 16 bytes long.
+ Data: <                > 00 CD CD CD CD CD CD CD 00 00 00 00 00 00 00 00 
+{218} normal block at 0x0000024BA96045A0, 16 bytes long.
+ Data: <                > 00 CD CD CD CD CD CD CD 00 00 00 00 00 00 00 00 
+{207} normal block at 0x0000024BA9600C70, 72 bytes long.
+ Data: <p ` K   p ` K   > 70 0C 60 A9 4B 02 00 00 70 0C 60 A9 4B 02 00 00 
+{206} normal block at 0x0000024BA9603A10, 16 bytes long.
+ Data: <  w1            > D0 B3 77 31 F6 7F 00 00 00 00 00 00 00 00 00 00 
+{205} normal block at 0x0000024BA96036A0, 8 bytes long.
+ Data: <  ] K   > B0 92 5D A9 4B 02 00 00 
+{202} normal block at 0x0000024BA95EB850, 24 bytes long.
+ Data: <console         > 63 6F 6E 73 6F 6C 65 00 CC CC CC CC CC CC CC CC 
+{199} normal block at 0x0000024BA95D6420, 85 bytes long.
+ Data: <D:/projects/misi> 44 3A 2F 70 72 6F 6A 65 63 74 73 2F 6D 69 73 69 
+{198} normal block at 0x0000024BA95DD620, 128 bytes long.
+ Data: <0 ^ K   0 ^ K   > 30 C0 5E A9 4B 02 00 00 30 C0 5E A9 4B 02 00 00 
+{197} normal block at 0x0000024BA9603BF0, 16 bytes long.
+ Data: < 5` K           > D0 35 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{196} normal block at 0x0000024BA95EC030, 24 bytes long.
+ Data: <0 ^ K   0 ^ K   > 30 C0 5E A9 4B 02 00 00 30 C0 5E A9 4B 02 00 00 
+{195} normal block at 0x0000024BA9604050, 16 bytes long.
+ Data: < 5` K           > B8 35 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{194} normal block at 0x0000024BA9603E70, 16 bytes long.
+ Data: < 5` K           > 90 35 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{193} normal block at 0x0000024BA9601D70, 16 bytes long.
+ Data: <p5` K           > 70 35 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{192} normal block at 0x0000024BA9601D20, 16 bytes long.
+ Data: <H5` K           > 48 35 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{191} normal block at 0x0000024BA9601FA0, 16 bytes long.
+ Data: < 5` K           > 18 35 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{190} normal block at 0x0000024BA9601E60, 16 bytes long.
+ Data: <  _ K           > 10 05 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{189} normal block at 0x0000024BA9602130, 16 bytes long.
+ Data: <  _ K           > F0 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{188} normal block at 0x0000024BA96020E0, 16 bytes long.
+ Data: <  _ K           > D0 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{187} normal block at 0x0000024BA9601E10, 16 bytes long.
+ Data: <  _ K           > B0 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{186} normal block at 0x0000024BA9602090, 16 bytes long.
+ Data: <  _ K           > 90 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{185} normal block at 0x0000024BA9601F50, 16 bytes long.
+ Data: <p _ K           > 70 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{184} normal block at 0x0000024BA9601FF0, 16 bytes long.
+ Data: <P _ K           > 50 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{183} normal block at 0x0000024BA9601DC0, 16 bytes long.
+ Data: <0 _ K           > 30 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{182} normal block at 0x0000024BA9602040, 16 bytes long.
+ Data: <  _ K           > 10 04 5F A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{181} normal block at 0x0000024BA95F0410, 288 bytes long.
+ Data: <@ ` K           > 40 20 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{180} normal block at 0x0000024BA9602270, 16 bytes long.
+ Data: < 4` K           > F8 34 60 A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{179} normal block at 0x0000024BA9602440, 4560 bytes long.
+ Data: <@        d] K   > 40 1F 03 F6 FE 7F 00 00 20 64 5D A9 4B 02 00 00 
+{176} normal block at 0x0000024BA9601EB0, 16 bytes long.
+ Data: <(6] K           > 28 36 5D A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{173} normal block at 0x0000024BA96021D0, 16 bytes long.
+ Data: <@7] K           > 40 37 5D A9 4B 02 00 00 00 00 00 00 00 00 00 00 
+{172} normal block at 0x0000024BA95D07B0, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{171} normal block at 0x0000024BA95DA6B0, 176 bytes long.
+ Data: <  ^ K     ] K   > B0 02 5E A9 4B 02 00 00 F0 DA 5D A9 4B 02 00 00 
+{169} normal block at 0x0000024BA95D6860, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{168} normal block at 0x0000024BA95DDAF0, 176 bytes long.
+ Data: <  ^ K     ] K   > B0 02 5E A9 4B 02 00 00 90 F1 5D A9 4B 02 00 00 
+{166} normal block at 0x0000024BA95DA5A0, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{165} normal block at 0x0000024BA95DF190, 176 bytes long.
+ Data: <  _ K     ] K   > B0 0E 5F A9 4B 02 00 00 20 A3 5D A9 4B 02 00 00 
+{163} normal block at 0x0000024BA95DB310, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{162} normal block at 0x0000024BA95F0EB0, 176 bytes long.
+ Data: <  ^ K     ] K   > B0 02 5E A9 4B 02 00 00 90 F1 5D A9 4B 02 00 00 
+{160} normal block at 0x0000024BA95E1070, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{159} normal block at 0x0000024BA95DA320, 176 bytes long.
+ Data: <@ ] K     ^ K   > 40 AF 5D A9 4B 02 00 00 B0 02 5E A9 4B 02 00 00 
+{157} normal block at 0x0000024BA95DA950, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{156} normal block at 0x0000024BA95DAF40, 176 bytes long.
+ Data: <  ^ K     ] K   > B0 02 5E A9 4B 02 00 00 20 A3 5D A9 4B 02 00 00 
+{155} normal block at 0x0000024BA95E02B0, 176 bytes long.
+ Data: <@ ] K     ] K   > 40 AF 5D A9 4B 02 00 00 20 A3 5D A9 4B 02 00 00 
+{154} normal block at 0x0000024BA9602360, 16 bytes long.
+ Data: <  w1            > F0 B3 77 31 F6 7F 00 00 00 00 00 00 00 00 00 00 
+{150} normal block at 0x0000024BA9601690, 72 bytes long.
+ Data: <  ` K   @ ` K   > 00 16 60 A9 4B 02 00 00 40 18 60 A9 4B 02 00 00 
+{149} normal block at 0x0000024BA9601840, 72 bytes long.
+ Data: <  ` K     ` K   > 90 16 60 A9 4B 02 00 00 00 16 60 A9 4B 02 00 00 
+{148} normal block at 0x0000024BA9601B10, 72 bytes long.
+ Data: <  ` K   @ ` K   > 00 16 60 A9 4B 02 00 00 40 18 60 A9 4B 02 00 00 
+{147} normal block at 0x0000024BA9601600, 72 bytes long.
+ Data: <  ` K   @ ` K   > 90 16 60 A9 4B 02 00 00 40 18 60 A9 4B 02 00 00 
+{146} normal block at 0x0000024BA9602220, 16 bytes long.
+ Data: <  w1            > B0 B3 77 31 F6 7F 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.

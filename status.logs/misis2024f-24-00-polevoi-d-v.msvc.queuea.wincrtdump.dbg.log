@@ -1,0 +1,97 @@
+Detected memory leaks!
+Dumping objects ->
+{244} normal block at 0x000002B021704490, 16 bytes long.
+ Data: <( "             > 28 F4 22 BD F7 7F 00 00 00 00 00 00 00 00 00 00 
+{207} normal block at 0x000002B0216ED2E0, 72 bytes long.
+ Data: <  n!      n!    > E0 D2 6E 21 B0 02 00 00 E0 D2 6E 21 B0 02 00 00 
+{206} normal block at 0x000002B021704CB0, 16 bytes long.
+ Data: <  "             > D0 F3 22 BD F7 7F 00 00 00 00 00 00 00 00 00 00 
+{205} normal block at 0x000002B021703E50, 8 bytes long.
+ Data: <  p!    > C0 0F 70 21 B0 02 00 00 
+{202} normal block at 0x000002B0216FBF90, 24 bytes long.
+ Data: <console         > 63 6F 6E 73 6F 6C 65 00 CC CC CC CC CC CC CC CC 
+{199} normal block at 0x000002B0216EB1C0, 85 bytes long.
+ Data: <D:/projects/misi> 44 3A 2F 70 72 6F 6A 65 63 74 73 2F 6D 69 73 69 
+{198} normal block at 0x000002B0216EA950, 128 bytes long.
+ Data: <  o!      o!    > B0 C0 6F 21 B0 02 00 00 B0 C0 6F 21 B0 02 00 00 
+{197} normal block at 0x000002B021704080, 16 bytes long.
+ Data: < op!            > E0 6F 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{196} normal block at 0x000002B0216FC0B0, 24 bytes long.
+ Data: <  o!      o!    > B0 C0 6F 21 B0 02 00 00 B0 C0 6F 21 B0 02 00 00 
+{195} normal block at 0x000002B0217042B0, 16 bytes long.
+ Data: < op!            > C8 6F 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{194} normal block at 0x000002B021704BC0, 16 bytes long.
+ Data: < op!            > A0 6F 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{193} normal block at 0x000002B021704030, 16 bytes long.
+ Data: < op!            > 80 6F 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{192} normal block at 0x000002B0217049E0, 16 bytes long.
+ Data: <Xop!            > 58 6F 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{191} normal block at 0x000002B0217048A0, 16 bytes long.
+ Data: <(op!            > 28 6F 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{190} normal block at 0x000002B0217044E0, 16 bytes long.
+ Data: < 5q!            > 10 35 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{189} normal block at 0x000002B021704300, 16 bytes long.
+ Data: < 4q!            > F0 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{188} normal block at 0x000002B021704B70, 16 bytes long.
+ Data: < 4q!            > D0 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{187} normal block at 0x000002B021703D60, 16 bytes long.
+ Data: < 4q!            > B0 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{186} normal block at 0x000002B0217045D0, 16 bytes long.
+ Data: < 4q!            > 90 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{185} normal block at 0x000002B021704620, 16 bytes long.
+ Data: <p4q!            > 70 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{184} normal block at 0x000002B021704530, 16 bytes long.
+ Data: <P4q!            > 50 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{183} normal block at 0x000002B021704580, 16 bytes long.
+ Data: <04q!            > 30 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{182} normal block at 0x000002B021704B20, 16 bytes long.
+ Data: < 4q!            > 10 34 71 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{181} normal block at 0x000002B021713410, 288 bytes long.
+ Data: < Kp!            > 20 4B 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{180} normal block at 0x000002B021703F40, 16 bytes long.
+ Data: < op!            > 08 6F 70 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{179} normal block at 0x000002B021705E50, 4560 bytes long.
+ Data: <@         n!    > 40 1F 03 F6 FE 7F 00 00 C0 B1 6E 21 B0 02 00 00 
+{176} normal block at 0x000002B0217043F0, 16 bytes long.
+ Data: <(6n!            > 28 36 6E 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{173} normal block at 0x000002B021704C60, 16 bytes long.
+ Data: <@7n!            > 40 37 6E 21 B0 02 00 00 00 00 00 00 00 00 00 00 
+{172} normal block at 0x000002B0216E0780, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{171} normal block at 0x000002B0216E92B0, 176 bytes long.
+ Data: <` n!      n!    > 60 F8 6E 21 B0 02 00 00 B0 A6 6E 21 B0 02 00 00 
+{169} normal block at 0x000002B0216E6420, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{168} normal block at 0x000002B0216EA6B0, 176 bytes long.
+ Data: <` n!    P n!    > 60 F8 6E 21 B0 02 00 00 50 BA 6E 21 B0 02 00 00 
+{166} normal block at 0x000002B0216E6860, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{165} normal block at 0x000002B0216EBA50, 176 bytes long.
+ Data: <  n!      n!    > 20 E7 6E 21 B0 02 00 00 20 A3 6E 21 B0 02 00 00 
+{163} normal block at 0x000002B0216EA5A0, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{162} normal block at 0x000002B0216EE720, 176 bytes long.
+ Data: <` n!    P n!    > 60 F8 6E 21 B0 02 00 00 50 BA 6E 21 B0 02 00 00 
+{160} normal block at 0x000002B0216EB310, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{159} normal block at 0x000002B0216EA320, 176 bytes long.
+ Data: <  n!    ` n!    > 10 AB 6E 21 B0 02 00 00 60 F8 6E 21 B0 02 00 00 
+{157} normal block at 0x000002B0216EFB30, 112 bytes long.
+ Data: <D:\projects\misi> 44 3A 5C 70 72 6F 6A 65 63 74 73 5C 6D 69 73 69 
+{156} normal block at 0x000002B0216EAB10, 176 bytes long.
+ Data: <` n!      n!    > 60 F8 6E 21 B0 02 00 00 20 A3 6E 21 B0 02 00 00 
+{155} normal block at 0x000002B0216EF860, 176 bytes long.
+ Data: <  n!      n!    > 10 AB 6E 21 B0 02 00 00 20 A3 6E 21 B0 02 00 00 
+{154} normal block at 0x000002B021704A80, 16 bytes long.
+ Data: <  "             > F0 F3 22 BD F7 7F 00 00 00 00 00 00 00 00 00 00 
+{150} normal block at 0x000002B0216ED7F0, 72 bytes long.
+ Data: <  n!      n!    > 80 D8 6E 21 B0 02 00 00 C0 D1 6E 21 B0 02 00 00 
+{149} normal block at 0x000002B0216ED1C0, 72 bytes long.
+ Data: <  n!      n!    > F0 D7 6E 21 B0 02 00 00 80 D8 6E 21 B0 02 00 00 
+{148} normal block at 0x000002B0216ED640, 72 bytes long.
+ Data: <  n!      n!    > 80 D8 6E 21 B0 02 00 00 C0 D1 6E 21 B0 02 00 00 
+{147} normal block at 0x000002B0216ED880, 72 bytes long.
+ Data: <  n!      n!    > F0 D7 6E 21 B0 02 00 00 C0 D1 6E 21 B0 02 00 00 
+{146} normal block at 0x000002B0217046C0, 16 bytes long.
+ Data: <  "             > B0 F3 22 BD F7 7F 00 00 00 00 00 00 00 00 00 00 
+Object dump complete.
