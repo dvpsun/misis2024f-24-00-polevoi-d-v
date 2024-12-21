@@ -31,7 +31,7 @@ public:
   [[nodiscard]] const T& operator[](const std::ptrdiff_t idx) const;
 
   //! \param idx - индекс вставляемого элемента, 0 <= idx <= size 
-  void Insert(const std::ptrdiff_t idx, const double val);
+  void Insert(const std::ptrdiff_t idx, const T& val);
 
   //! \param idx - индекс удаляемого элемента, 0 <= idx < size 
   void Remove(const std::ptrdiff_t idx);
@@ -108,7 +108,7 @@ void ArrayT<T>::Resize(const std::ptrdiff_t size) {
 }
 
 template<class T>
-void ArrayT<T>::Insert(const std::ptrdiff_t idx, const double val) {
+void ArrayT<T>::Insert(const std::ptrdiff_t idx, const T& val) {
   if (idx < 0 || size_ < idx) {
     throw std::invalid_argument("ArrayT::Insert - invalid index");
   }
