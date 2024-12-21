@@ -44,11 +44,12 @@ StackL& StackL::operator=(const StackL& src) {
         p_dst = p_dst->next;
       }
       if (p_dst->next) {
-        Node* tail = p_dst->next->next;
-        while (p_dst->next) {
-          delete p_dst->next;
-          p_dst->next = nullptr;
-          p_dst = tail;
+        Node* tail = p_dst->next;
+        p_dst->next = nullptr;
+        while (tail) {
+          p_dst = tail->next;
+          delete tail;
+          tail = p_dst;
         }
       }
     }
