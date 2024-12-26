@@ -8,18 +8,18 @@ Test project D:/projects/2024-misis-fall/misis2024f-24-00-polevoi-d-v/build.chec
     Start 6: doctest_rational_io
     Start 7: doctest_queuea
     Start 8: doctest_stackl
-1/8 Test #1: doctest_arrayd ...................   Passed    0.08 sec
-2/8 Test #2: doctest_arrayt ...................   Passed    0.06 sec
-3/8 Test #3: doctest_complex ..................***Failed    0.05 sec
-4/8 Test #4: doctest_complex_io ...............***Failed    0.04 sec
-5/8 Test #5: doctest_rational .................***Failed    0.03 sec
-6/8 Test #7: doctest_queuea ...................   Passed    0.01 sec
-7/8 Test #6: doctest_rational_io ..............***Failed    0.02 sec
-8/8 Test #8: doctest_stackl ...................   Passed    0.01 sec
+1/8 Test #1: doctest_arrayd ...................   Passed    0.10 sec
+2/8 Test #2: doctest_arrayt ...................   Passed    0.08 sec
+3/8 Test #3: doctest_complex ..................***Failed    0.06 sec
+4/8 Test #5: doctest_rational .................***Failed    0.04 sec
+5/8 Test #6: doctest_rational_io ..............***Failed    0.03 sec
+6/8 Test #4: doctest_complex_io ...............***Failed    0.06 sec
+7/8 Test #7: doctest_queuea ...................   Passed    0.03 sec
+8/8 Test #8: doctest_stackl ...................   Passed    0.03 sec
 
 50% tests passed, 4 tests failed out of 8
 
-Total Test time (real) =   0.08 sec
+Total Test time (real) =   0.12 sec
 
 The following tests FAILED:
 	  3 - doctest_complex (Failed)
